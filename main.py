@@ -3,6 +3,11 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"message": "Smart Event Notification System is running"}
+
+
 def job_check_reminders():
     events = get_event_data()
     for event in events:
