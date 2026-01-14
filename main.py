@@ -1,4 +1,7 @@
 from apscheduler.schedulers.background import BackgroundScheduler
+from fastapi import FastAPI
+
+app = FastAPI()
 
 def job_check_reminders():
     events = get_event_data()
