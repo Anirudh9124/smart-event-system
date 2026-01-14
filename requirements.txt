@@ -5,6 +5,7 @@ aiosignal==1.4.0
 annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.12.1
+APScheduler==3.11.2
 attrs==25.4.0
 cachetools==6.2.4
 certifi==2026.1.4
@@ -55,6 +56,8 @@ transformers==4.57.5
 twilio==9.9.1
 typing-inspection==0.4.2
 typing_extensions==4.15.0
+tzdata==2025.3
+tzlocal==5.3.1
 urllib3==2.6.3
 uvicorn==0.40.0
 yarl==1.22.0
